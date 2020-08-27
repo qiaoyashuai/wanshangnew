@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 导航1 */
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration:none;
+}
+.nav{
+    width: 100%;
+    border-bottom: 2px solid #f42424;
+}
+.top-nav{
+    text-align: center;
+    line-height: 40px;
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.nav-text{
+    width: 140px;
+    padding-left: 30px;
+    padding-right: 10px;
+    text-align: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight:700;
+    background: #DD0909;
+    float: left;
+    border-bottom: 2px solid #DD0909;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+.nav-ul{
+    font-size: 16px;
+    float: left;
+}
+.nav-ul>li{
+    margin-left: 38px;
+    float: left;
+}
+.xb{
+    color: #e23435;
+}
+li>a{
+    color: #555;
+
+}
+.nav-ul>li>a:hover{
+    color: #e23435;
+}
+/* banner图 */
+.banner{
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    
+}
+.banner-img{
+    width: 1200px;
+    height: 280px;
+    background: url("../images/jhsbanner2.png") no-repeat;
+    background-position: 0px,0px;
+    margin: 0 auto;
+}
+.banner-ul{
+    float: left;
+    background: #333;
+    height: 280px;
+}
+.banner-ul li{
+    width: 134px;
+    height: 23px;
+    padding: 8px 16px 8px 30px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 1px dotted #555
+}
+.banner-ul li:hover{
+    background: #DD0909;
+}
+.txtlf{
+    margin-left: 10px;
+}
+/* 疯狂团购 */
+.folie{
+    background: #F8F8F8;
+    height: 400px;
+    width:100%;
+    padding: 40px 0;
+}
+.folie-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.folie-text{
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+.folie-text h2{
+    float: left;
+    font-size: 28px;
+    padding-left: 40px;
+    background: url(../images/crazy-icon.png) no-repeat left center;
+    color: #555;
+    font-weight: 500;
+}
+.crazy{
+    width: 1200px;
+    height: 380px;
+}
+.crazy li img{
+    width: 232px;
+    height: 232px;
+    cursor: pointer;
+}
+.crazy li{
+    transition: all .3s;
+    text-align: center;
+    width: 232px;
+    margin-right: 10px;
+    background: #fff;
+    float: left;
+}
+.money{
+    color: #f43434;
+    font-size: 21px;
+}
+.jies{
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 10px 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+}
+.redtxt{
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    background: #f43434;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+}
+.crazy li:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.15);
+    transform: translate3d(0,-3px,0);
+}
+.crazy .time{
+    color: #555;
+    margin: 10px;
+    font-size: 12px;
+}
+/* 热门团购 */
+.hot{
+    width:100%;
+    padding: 40px 0;
+}
+.hot-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.hot-text{
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 30px;
+}
+.hot-text h2{
+    float: left;
+    font-size: 28px;
+    color: #555;
+    font-weight: 500;
+}
+.group{
+    display: block;
+    border: 1px solid #d2d2d2;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    text-decoration: none;
+    color: #555;
+}
+.group:hover{
+    background: #d2d2d2;
+    color: #555;
+}

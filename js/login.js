@@ -1,0 +1,9 @@
+$(function(){
+    $('.sign').find('.toCode').click(function(){
+        if($(this).parents('.sign_num').hasClass('hide')){
+            $(this).parents('.sign_num').removeClass('hide').siblings('.sign_num').addClass('hide')
+        }else{
+            $(this).parents('.sign_num').addClass('hide').siblings('.sign_num').removeClass('hide');
+        }
+    })
+})

@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+body {
+    background-color: #eee;
+    font: 12px/1.5 Microsoft YaHei, tahoma, arial, Hevetica, \\5b8b\4f53, sans-serif;
+    color: #555;
+}
+
+
+/* 头部 */
+
+.loginin-header {
+    width: 100%;
+    height: 130px;
+    line-height: 130px;
+}
+
+.loginin-header .header {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+.header .logospan {
+    float: left;
+    font-size: 18px;
+    color: #8c8c8c;
+    margin-left: 12px;
+    margin-top: 35px;
+}
+
+.logospan span {
+    width: 258px;
+    height: 70px;
+    overflow: hidden;
+    display: block;
+    background: url(../images/login_logo_pic.png) no-repeat;
+}
+
+.header .header-href {
+    float: right;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+
+
+/* 内容部分 */
+
+.container .wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrap .signup {
+    width: 1200px;
+    background-color: #fff;
+    min-height: 565px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.wrap .s-img {
+    float: left;
+    width: 600px;
+    height: 565px;
+    position: relative;
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+
+/* 表单 */
+
+.form {
+    width: 600px;
+    float: left;
+    padding-top: 38px;
+    height: 100%;
+}
+
+.form .s-item {
+    display: block;
+    line-height: 25px;
+    width: 100%;
+    float: left;
+    margin-bottom: 27px;
+}
+
+.s-item .item-label {
+    float: left;
+    width: 136px;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 40px;
+    padding-right: 24px;
+    text-align: right;
+}
+
+.s-item .item-info {
+    float: left;
+    width: 340px;
+    position: relative;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #d2d2d2;
+}
+
+.s-item input {
+    outline: 0;
+    border: 0;
+    padding: 0 10px;
+}
+
+.item-info .random1 {
+    width: 100px;
+    height: 100%;
+    background-color: thistle;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    right: 0;
+    text-align: center;
+    cursor: pointer;
+}
+
+#zphone {
+    display: block;
+    float: right;
+    width: 80px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #f0f0f0;
+    margin: 3px 3px 3px 0;
+    font-size: 12px;
+    color: #555;
+}
+
+#zphone:hover {
+    color: red;
+}
+
+.item2 {
+    padding-left: 160px;
+}
+
+.checkbox input {
+    display: none;
+}
+
+.checkbox {
+    margin-left: -23px;
+}
+
+.ui-label {
+    cursor: pointer;
+    padding-left: 18px;
+    background: url(../images/checkbox_12x12.png) 0 2px no-repeat;
+}
+
+.ui-label:hover {
+    background: url(../images/checkbox_cur_12x12.png) 0 2px no-repeat;
+}
+
+.checkbox .active {
+    background: url(../images/checked_12x12.png) 0 2px no-repeat;
+}
+
+.checkbox a {
+    color: #438cde;
+}
+
+#btn {
+    width: 342px;
+    height: 50px;
+    line-height: 50px;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    outline: 0;
+    cursor: pointer;
+    background: #f42424;
+    color: #fff;
+    margin-left: -23px;
+}
+
+#btn:hover {
+    opacity: 0.8;
+}
+
+.footer {
+    background-color: #eee;
+}
+
+.footer .wrap {
+    background-color: #f8f8f8;
+    color: #b5b5b5;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer .f-inner {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.f-inner p {
+    padding-bottom: 10px;
+}
+
+.f-inner p a {
+    color: rgba(85, 85, 85, .5);
+}
+
+.f-inner p a:hover {
+    color: red;
+}

@@ -1,0 +1,357 @@
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid #f42424;
+}
+main{
+    width: 100%;
+    height: 100px;
+    background: url(../images/article_bg.jpg) no-repeat;
+    cursor: pointer;
+}
+main p{
+    float: left;
+    height: 100px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 100px;
+}
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.banners a{
+    color: #555;
+}
+
+.con{
+    width: 100%;
+    height: auto;
+    background: #f8f8f8;
+}
+.con .banner .submit-search{
+    width: 645px;
+    height: 48px;
+    margin: 5px 0 10px 255px;
+
+}
+.submit-search input{
+    width: 500px;
+    height: 28px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 24px 0 0 24px;
+    border: 0;
+    float: left;
+}
+.submit-search a{
+    float: left;
+    width: 114px;
+    height: 48px;
+    line-height: 48px;
+    color: #fff;
+    background: #f42424;
+    border-radius: 0 24px 24px 0;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+.submit-search a span{
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url(../images/search.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 17px;
+    left: 31px;
+}
+.list-title{
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.list-con{
+    width: 230px;
+    height: auto;
+    background: #fff;
+    margin-right: 20px;
+}
+.list-con>ul.first>li{
+    color: #555;
+    line-height: 40px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 190px;
+}
+.list-con>ul.first>li>ul.second>li{
+    font-weight: 400;
+}
+.list-con ul.first>li>div>span{
+    float: right;
+} 
+
+.list-con ul {
+    padding-left: 0;
+    overflow: hidden;
+}
+.second div {
+    padding-left: 15px;
+}
+.third div {
+    padding-left: 30px;
+}
+.second, .third {
+    display: none;
+}
+
+
+
+.notice {
+    width:950px;
+    background: #fff;
+    position: absolute;
+    top: 58px;
+    left: 255px;
+}
+.notice ul li{
+    width: 910px;
+    height: 30px;
+    color: #555;
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+.notice ul li i{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #d4d4d4;
+}
+.notice ul li:hover{
+    color: #f42424;
+}
+
+/* 页脚部分 */
+/* 页脚上边部分 */
+.footer-top{
+    width: 100%;
+    height: 32px;
+    padding: 24px 0;
+    background-color: #EEEEEE;
+}
+/* 页脚上边部分版心 */
+.footer-top .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚上边部分列表 */
+.footer-top ul li{
+    float: left;
+    width: 174px;
+    height: 32px;
+}
+/* 页脚上边部分列表内图标 */
+.footer-top ul li div{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分列表内文字 */
+.footer-top ul li span{
+    float: left;
+    width: 132px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #888888;
+}
+/* 图标的引入 */
+.footer-top ul li .icon-1{
+    background: url(../images/footer_new_icon.png) no-repeat 0px 0px;
+}
+.footer-top ul li .icon-2{
+    background: url(../images/footer_new_icon.png) no-repeat -34px 0px;
+}
+.footer-top ul li .icon-3{
+    background: url(../images/footer_new_icon.png) no-repeat -68px 0px;
+}
+.footer-top ul li .icon-4{
+    background: url(../images/footer_new_icon.png) no-repeat -102px 0px;
+}
+.footer-top ul li .icon-5{
+    background: url(../images/footer_new_icon.png) no-repeat -136px 0px;
+}
+/* 页脚上边部分电话盒子 */
+.footer-top .phone{
+    width: 180px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分电话图标 */
+.footer-top .phone i{
+    float: left;
+    width: 26px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -103px;
+}
+/* 页脚上边部分电话号码 */
+.footer-top .phone span{
+    float: left;
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+}
+/* 页脚上边部分客服盒子 */
+.footer-top .service{
+    width: 115px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分客服图标 */
+.footer-top .service i{
+    float: left;
+    width: 30px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -138px;
+    cursor: pointer;
+}
+/* 页脚上边部分咨询客服 */
+.footer-top .service span{
+    float: left;
+    width: 70px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+    cursor: pointer;
+}
+/* 页脚中间部分 */
+.footer-con{
+    width: 100%;
+    height: 190px;
+    background-color: #262626;
+}
+/* 页脚中间部分版心 */
+.footer-con .banner{
+    width: 1200px;
+    height: 129px;
+    margin: 0 auto;
+    border-bottom: 1px solid #464646;
+    padding: 30px 0;
+    color: #fff;
+}
+/* 页脚中间部分所有a标签设置 */
+.footer-con .banner a{
+    color: #cccccc;
+    font-size: 14px;
+}
+.footer-con .banner a:hover{
+    color: #f42424;
+}
+/* 页脚中间部分横向大列表 */
+.footer-con .banner .col li{
+    float: left;
+    width: 175px;
+    height: 129px;
+}
+/* 页脚中间部分横向大列表中的竖向小列表 */
+.footer-con .banner .col li .row li{
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+}
+/* 竖向小列表中的第一行单独样式设置 */
+.footer-con .banner .col li .row li:first-child{
+    font-weight: 900;
+    height: 20px;
+    padding-bottom: 20px;
+}
+/* 页脚中间部分两个二维码盒子 */
+.footer-con .banner .ewm{
+    float: left;
+    width: 104px;
+    height: 124px;
+    border: 2px solid #fff;
+    position: relative;
+}
+/* 第一个微信二维码 */
+.footer-con .banner .wxewm{
+    background: url(../images/ecjia_qrcode.jpg) no-repeat;
+    background-size: 100%;
+    margin-right: 60px;
+}
+/* 第二个下载app二维码 */
+.footer-con .banner .app{
+    background: url(../images/ectouch_qrcode.jpg) no-repeat;
+    background-size: 100%;
+}
+/* 两个二维码盒子中的底端文本设置 */
+.footer-con .banner .ewm span{
+    display: block;
+    width: 104px;
+    height: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+/* 页脚下边部分 */
+.footer-bot{
+    width: 100%;
+    height: 90px;
+    padding: 30px 0px 20px;
+    background-color: #262626;
+}
+/* 页脚下边部版心设置 */
+.footer-bot .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚下边部分文本设置 */
+.footer-bot p{
+    display: block;
+    width: 1200px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/* 页脚下边部分文本中a标签设置 */
+.footer-bot p a{
+    color: #888888;
+}
+.footer-bot p a:hover{
+    color: red;
+}
+/* 页脚下边部分文本中小细线设置 */
+.footer-bot p span{
+    display: inline-block;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background-color: #444444;
+}

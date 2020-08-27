@@ -1,0 +1,644 @@
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+header{
+    width: 100%;
+    height: 180px;
+    border-bottom: 2px solid #f42424;
+}
+main{
+    width: 100%;
+    height: 200px;
+    background: url(../images/1489190636366732843.jpg) no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+}
+.banner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.banners a{
+    color: #555;
+}
+table{
+    border: 1px dashed #D2D2D2;
+    border-collapse: collapse;
+    font-size: 12px;
+    color: #555;
+}
+table a:hover{
+    color: red;
+}
+table .bor{
+    border-bottom: 1px dashed #D2D2D2;
+}
+table tr td{
+    width: 115px;
+    height: 50px;
+    line-height: 50px;
+}
+table tr td:first-child{
+    text-align: center;
+} 
+table .box{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    color: #8c8c8c;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #D2D2D2;
+    margin-right: 10px;
+    cursor: pointer;
+}
+table .iconfont{
+    font-size: 12px;
+}
+.content{
+    width: 1200px;
+}
+.clearfix:after{
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+.vertical{
+    float: left;
+    width: 284px;
+    margin-top: 50px;
+    margin-right: 6px;
+    margin-bottom: 50px;
+}
+.street-list-item{
+    width: 278px;
+    border: 3px solid #e5e5e5;
+    background-color: #f8f8f8;
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.street-list-item .info .iconfont{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    color: red;
+    cursor: pointer;
+}
+.street-list-item .info .s-logo{
+    width: 118px;
+    height: 58px;
+    margin: 10px auto;
+    border: 1px dashed #dcdcdc;
+    background-color: #fff;
+}
+.street-list-item .info .name{
+    display: block;
+    font-size: 14px;
+    color: #333;
+    font-weight: 900;
+    margin: 10px 0;
+    text-align: center;
+}
+.street-list-item .info p{
+    color: #8c8c8c;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 12px;
+}
+
+/* 页脚部分 */
+/* 页脚上边部分 */
+.footer-top{
+    width: 100%;
+    height: 32px;
+    padding: 24px 0;
+    background-color: #EEEEEE;
+}
+/* 页脚上边部分版心 */
+.footer-top .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚上边部分列表 */
+.footer-top ul li{
+    float: left;
+    width: 174px;
+    height: 32px;
+}
+/* 页脚上边部分列表内图标 */
+.footer-top ul li div{
+    width: 32px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分列表内文字 */
+.footer-top ul li span{
+    float: left;
+    width: 132px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #888888;
+}
+/* 图标的引入 */
+.footer-top ul li .icon-1{
+    background: url(../images/footer_new_icon.png) no-repeat 0px 0px;
+}
+.footer-top ul li .icon-2{
+    background: url(../images/footer_new_icon.png) no-repeat -34px 0px;
+}
+.footer-top ul li .icon-3{
+    background: url(../images/footer_new_icon.png) no-repeat -68px 0px;
+}
+.footer-top ul li .icon-4{
+    background: url(../images/footer_new_icon.png) no-repeat -102px 0px;
+}
+.footer-top ul li .icon-5{
+    background: url(../images/footer_new_icon.png) no-repeat -136px 0px;
+}
+/* 页脚上边部分电话盒子 */
+.footer-top .phone{
+    width: 180px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分电话图标 */
+.footer-top .phone i{
+    float: left;
+    width: 26px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -103px;
+}
+/* 页脚上边部分电话号码 */
+.footer-top .phone span{
+    float: left;
+    width: 140px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+}
+/* 页脚上边部分客服盒子 */
+.footer-top .service{
+    width: 115px;
+    height: 32px;
+    float: left;
+}
+/* 页脚上边部分客服图标 */
+.footer-top .service i{
+    float: left;
+    width: 30px;
+    height: 24px;
+    margin-top: 4px;
+    background: url(../images/footer_new_icon.png) no-repeat 0px -138px;
+    cursor: pointer;
+}
+/* 页脚上边部分咨询客服 */
+.footer-top .service span{
+    float: left;
+    width: 70px;
+    height: 32px;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0 7px;
+    cursor: pointer;
+}
+/* 页脚中间部分 */
+.footer-con{
+    width: 100%;
+    height: 190px;
+    background-color: #262626;
+}
+/* 页脚中间部分版心 */
+.footer-con .banner{
+    width: 1200px;
+    height: 129px;
+    margin: 0 auto;
+    border-bottom: 1px solid #464646;
+    padding: 30px 0;
+    color: #fff;
+}
+/* 页脚中间部分所有a标签设置 */
+.footer-con .banner a{
+    color: #cccccc;
+    font-size: 14px;
+}
+.footer-con .banner a:hover{
+    color: #f42424;
+}
+/* 页脚中间部分横向大列表 */
+.footer-con .banner .col li{
+    float: left;
+    width: 175px;
+    height: 129px;
+}
+/* 页脚中间部分横向大列表中的竖向小列表 */
+.footer-con .banner .col li .row li{
+    width: 175px;
+    height: 30px;
+    line-height: 30px;
+}
+/* 竖向小列表中的第一行单独样式设置 */
+.footer-con .banner .col li .row li:first-child{
+    font-weight: 900;
+    height: 20px;
+    padding-bottom: 20px;
+}
+/* 页脚中间部分两个二维码盒子 */
+.footer-con .banner .ewm{
+    float: left;
+    width: 104px;
+    height: 124px;
+    border: 2px solid #fff;
+    position: relative;
+}
+/* 第一个微信二维码 */
+.footer-con .banner .wxewm{
+    background: url(../images/ecjia_qrcode.jpg) no-repeat;
+    background-size: 100%;
+    margin-right: 60px;
+}
+/* 第二个下载app二维码 */
+.footer-con .banner .app{
+    background: url(../images/ectouch_qrcode.jpg) no-repeat;
+    background-size: 100%;
+}
+/* 两个二维码盒子中的底端文本设置 */
+.footer-con .banner .ewm span{
+    display: block;
+    width: 104px;
+    height: 18px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+}
+/* 页脚下边部分 */
+.footer-bot{
+    width: 100%;
+    height: 90px;
+    padding: 30px 0px 20px;
+    background-color: #262626;
+}
+/* 页脚下边部版心设置 */
+.footer-bot .banner{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+}
+/* 页脚下边部分文本设置 */
+.footer-bot p{
+    display: block;
+    width: 1200px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+/* 页脚下边部分文本中a标签设置 */
+.footer-bot p a{
+    color: #888888;
+}
+.footer-bot p a:hover{
+    color: red;
+}
+/* 页脚下边部分文本中小细线设置 */
+.footer-bot p span{
+    display: inline-block;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background-color: #444444;
+}
+/* 黑色侧边栏 */
+.aside{
+    width: 40px;
+    height: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+}
+/* 黑色侧边栏竖向版心设置 */
+.aside .banner{
+    width: 40px;
+    height: 480px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -240px;
+}
+/* 黑色侧边栏中的列表 */
+.aside .banner ul li{
+    list-style: none;
+    width: 40px;
+    height: 38px;
+    padding-top: 1px;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* 黑色侧边栏中列表里面的小图标区域 */
+.aside .banner ul li>i:first-of-type{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 9px 10px;
+}
+/* 插入小图标 */
+.aside .banner ul .item-1>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat 1px 3px;
+}
+.aside .banner ul .item-2>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat 0px -29px;
+}
+.aside .banner ul .item-3>i:first-of-type{
+    background: url(../images/chongzhi.png) no-repeat -9px -7px;
+}
+.aside .banner ul .item-4>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat -35px 3px;
+}
+.aside .banner ul .item-5>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat 1px -56px;
+}
+.aside .banner ul .item-6>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat 0px -113px;
+}
+.aside .banner ul .item-7>i:first-of-type{
+    background: url(../images/wdsc.png) no-repeat -7px -7px;
+}
+.aside .banner ul .item-8>i:first-of-type{
+    background: url(../images/email.png) no-repeat -8px -7px;
+}
+.aside .banner ul .item-9>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat -1px -172px;
+}
+.aside .banner ul .item-10>i:first-of-type{
+    background: url(../images/ibar_sprites.png) no-repeat -1px -198px;
+}
+
+/* 用户登录盒子 */
+.aside .banner ul .item-1 .user{
+    width: 267px;
+    height: 185px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .4);
+    border-radius: 5px 0 0 5px;
+    z-index: 3;
+    position: absolute;
+    top: 0px;
+    right: 40px;
+    display: none;
+}
+/* 用户登录盒子中的白色小三角 */
+.aside .banner ul .item-1 .user i{
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #fff;
+    position: relative;
+    top: 5px;
+    right: -277px;
+}
+/* 用户登录上半部分用户信息区域 */
+.aside .banner ul .item-1 .user-top{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px dotted #d5d5d5;
+}
+/* 用户头像 */
+.aside .banner ul .item-1 .user-top img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
+/* 用户名与级别 */
+.aside .banner ul .item-1 .user-top p{
+    float: left;
+    width: 100px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+/* 用户名 */
+.aside .banner ul .item-1 .user-top p:first-of-type{
+    margin-top: 40px;
+}
+/* 级别 */
+.aside .banner ul .item-1 .user-top p:last-of-type{
+    margin-top: 20px;
+}
+/* 用户登录下半部分按钮 */
+.aside .banner ul .item-1 .user-bot button{
+    width: 94px;
+    height: 30px;
+    margin: 15px 18px;
+    color: #333333;
+    border: 1px solid #e9e9e9;
+    background-color: #f6f6f6;
+    outline: 0;
+    cursor: pointer;
+}
+/* 鼠标移入按钮使边框变红 */
+.aside .banner ul .item-1 .user-bot button:hover{
+    border: 1px solid #e42424;
+}
+/* 鼠标移入列表使背景色变红 */
+.aside .banner ul li:hover{
+    background-color: #f42424;
+}
+/* 鼠标移入列表第一个li使用户登录盒子显示 */
+.aside .banner ul .item-1:hover div{
+    display: block;
+}
+/* 列表第二个li设置 */
+.aside .banner ul .item-2{
+    height: 133px;
+}
+/* 列表第二个li里面的文字 */
+.aside .banner ul .item-2 p{
+    display: block;
+    width: 12px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 12px;
+}
+/* 列表第二个li中下方购物车中商品数量红色提示框 */
+.aside .banner ul .item-2 i:last-of-type{
+    display: block;
+    width:20px;
+    height: 20px;
+    margin: 5px auto;
+    background-color: #f42424;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    font-style: normal;
+    font-size: 12px;
+}
+/* 鼠标移入红色数量提示框时背景与字体颜色改变 */
+.aside .banner ul .item-2:hover i:last-of-type{
+    background-color: #fff;
+    color: #f42424;
+}
+/* 列表最后一个li在最下面 */
+.aside .banner ul .item-9{
+    position: absolute;
+    bottom: -140px;
+}
+.aside .banner ul .item-10{
+    position: absolute;
+    bottom: -190px;
+    display: none;
+}
+/* 隐藏起来的黑色提示框 */
+.aside .banner ul li .tip{
+    width: 92px;
+    height: 40px;
+    background-color: #000000;
+    position: relative;
+    left: -121px;
+    top: -39px;
+    color: #d8d8d8;
+    font-size: 12px;
+    text-align: center;
+    display: none;
+}
+/* 黑色提示框中黑色小三角 */
+.aside .banner ul li .tip i{
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-left: 5px solid #000;
+    position: relative;
+    top: 14px;
+    left: 92px;
+}
+/* 隐藏的购物栏区域 */
+.hide-store{
+    width: 280px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9999999;
+    background-color: #f8f8f8;
+    display: none;
+}
+/* 购物栏上方 */
+.hide-store .store-top{
+    width: 280px;
+    height: 5%;
+    line-height: 38px;
+    border-bottom: 1px solid #dedede;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: #efefef;
+    color: #555;
+}
+/* 购物栏上方关闭按钮 */
+.hide-store .store-top div{
+    float: right;
+    margin:9px 20px;
+    width: 20px;
+    height: 20px;
+    background: url(../images/ibar_sprites.png) no-repeat 0px -272px;
+    cursor: pointer;
+}
+/* 购物栏中间区域 */
+.hide-store .store-con{
+    width: 280px;
+    height: 83%;
+    background-color: #eceaea;
+    position: relative;
+}
+/* 购物栏中间区域图片 */
+.hide-store .store-con div{
+    width: 112px;
+    height: 85px;
+    background: url(../images/cart-nogoods.png) no-repeat;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -56px;
+    margin-left: -42px;
+}
+/* 购物栏中间区域图片下方文字 */
+.hide-store .store-con span{
+    float: left;
+    width: 280px;
+    text-align: center;
+    font-size: 12px;
+    color: #555;
+    position: absolute;
+    top: 300px;
+}
+/* 购物栏中间区域图片下方链接文字 */
+.hide-store .store-con a{
+    float: left;
+    width: 280px;
+    text-align: center;
+    font-size: 12px;
+    color: #f42424;
+    position: absolute;
+    top: 320px;
+}
+/* 购物栏下方 */
+.hide-store .store-bot{
+    width: 280px;
+    height: 10%;
+}
+/* 购物栏下方商品件数文本设置 */
+.hide-store .store-bot p:first-of-type{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.hide-store .store-bot span{
+    color: #f42424;
+}
+/* 购物栏下方商品金额设置 */
+.hide-store .store-bot p:last-of-type{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-family: verdana;
+    font-weight: 900;
+    color: #f42424;
+}
+/* 购物栏下方购物车结算按钮 */
+.hide-store .store-bot button{
+    width: 260px;
+    height: 33px;
+    margin: 15px 10px;
+    font-size: 18px;
+    background-color: #f42424;
+    border: 0px;
+    color: #fff;
+    cursor: pointer;
+    outline: 0;
+}

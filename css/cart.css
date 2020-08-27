@@ -1,0 +1,504 @@
+/* 公共的样式 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#F8F8F8;
+}
+button,input,select,textarea{
+    outline: none;
+    border: none;
+   -webkit-font-smoothing:antialiased; 
+   color: #666;
+}
+em,i,u{
+    font-style: normal;
+}
+
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    color: #f55;
+}
+
+
+/* 浮动 */
+.fl{
+    float: left !important;
+}
+.fr{
+    float: right !important;
+}
+.fn{
+    float: none !important;
+}
+
+/* 字体大小 */
+.fs12{
+    font-size: 12px;
+}
+.fs14{
+    font-size: 14px;
+}
+.fs16{
+    font-size: 16px;
+}
+
+/* 显示隐藏 */
+.hide{
+    display: none !important;
+}
+.show{
+    display: block !important;
+}
+
+/* 清除浮动 */
+.clear,.clearfix{
+    clear: both;
+}
+
+/* 对齐方式 */
+.text-left{
+    text-align: left !important;
+}
+.text-right{
+    text-align: right !important;
+}
+.text-center{
+    text-align: center !important;
+}
+.text-justify{
+    text-align: justify !important;  /* 两端对齐 */
+}
+
+input[type="checkbox"]{
+    display: none
+}
+.lab{
+    width: 14px;
+    height: 14px;
+    background: url(../images/check.png) no-repeat;
+    display: inline-block;
+}
+.lab-red{
+    cursor: pointer;
+    user-select:none}
+label.active{
+    background: url(../images/checked.png) no-repeat;
+}
+.cart-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 300px;
+}
+.cart-header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+.cart-lists{
+    background-color: white;
+    height: 110px;
+}
+.cart-lists li{
+    float: left ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cart-box .cart-lists li{
+    height: 110px;
+}
+.cart-lists .cart-check{
+    width: 150px;
+}
+.cart-lists .cart-content{
+    width: 570px;
+}
+.cart-lists .cart-price{
+    width: 160px;
+}
+.cart-lists .cart-amount{
+    width: 130px;
+}
+.cart-lists .cart-sum{
+    width: 120px;
+}
+.cart-lists .cart-option{
+    width: 60px;
+}
+.cart-box{
+    width: 100%;
+}
+.shop-check{
+    margin-right: 20px;
+}
+.cart-box .shop-info{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+.shop-info a{
+    min-width: 62px;
+    padding: 0 10px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background-color: #f42424;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin: 15px 0 0 5px;
+    cursor: default;
+}
+
+.cart-box .shop-info .all-check{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.cart-content .cart-img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #ccc;
+}
+.cart-content .cart-img img{
+    width: 70px;
+    height: 70px;
+}
+.cart-content  .cart-text{
+    margin-left: 20px;
+    height: 60px;
+    line-height: 20px;
+    /* 多行文本出现省略号 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 60px;
+    cursor: pointer;
+}
+.cart-text:hover{
+    color: red;
+}
+.cart-price .price{
+    display: block;
+    font-size: 16px;
+    color: #333;
+    font-weight: 400;
+}
+.cart-price .price::before{
+    content: "￥";
+}
+
+.cart-sum .price-sum{
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+.cart-sum .price-sum::before{
+    content: "￥";
+}
+
+
+.cart-amount .amount-box{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.cart-amount .amount-box input{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-right: 1px solid #ccc;
+  
+}
+.cart-amount .amount-box button{
+    width: 29px;
+    height: 15px;
+    position: absolute;
+    left: 31px;
+    border: 0;
+}
+.cart-amount .amount-box .reduce{
+    top: 15px;
+    border-top: 1px solid #cccccc;
+}
+
+.cart-dele{
+    cursor: pointer;
+    font-size: 12px;
+    color: #438cde;
+    cursor: pointer;
+}
+
+.cart-left{
+    position: relative;
+    right: 280px;
+}
+.cart-footer{
+    margin-top: 10px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #8c8c8c;
+}
+.cart-footer>div{
+    float: left;
+}
+.zhifu{
+    width: 160px;
+    height: 50px;
+    border: 0;
+    background-color: #f42424;
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.buy-num{
+    color: #f42424;
+    margin: 0 5px;
+}
+.div-right{
+    float: right !important;
+}
+.div-right>div{
+    float: left;
+    margin-right: 35px;
+}
+.txt-black{
+    color: #333;
+}
+.pay-price{
+    font-size: 24px;
+    font-weight: 700;
+    color: #f42424;
+}
+.div-left{
+    float: left;
+}
+.div-left>div{
+    float: left;
+    margin-left: 25px;
+}
+.leftsky{
+    display: inline-block;
+    margin-left: 10px;
+    color: #8c8c8c;
+}
+.top-left{
+    float: left;
+}
+.top-left>div{
+    display: inline-block;
+    width: 126px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    color: #8c8c8c;
+    font-size: 14px;
+    border: 1px solid #f8f8f8;
+    border-radius: 18px;
+}
+.top-left .top-cart{
+    margin-bottom: 5px;
+    background-color: #ff8f23;
+    border-color: #ff8f23;
+    color: #fff;
+}
+.top-right{
+    float: right;
+}
+.top-right>div{
+    float: left;
+    color: #8c8c8c;
+    font-size: 14px;
+    line-height: 27px;
+
+}
+.top-right .top-map{
+    padding: 0 10px;
+    border: 1px solid #d2d2d2;
+    height: 23px;
+    line-height: 23px;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 10px;
+}
+/* 自定义模态框 */
+.modal-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.2;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    z-index: 100;
+    display: none;
+}
+.modal-box{
+    width: 455px;
+    height: 200px;
+    background: #fff;
+    position: fixed;
+    z-index: 10000;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -180px;
+    border: 10px solid #B3B3B3;
+    display:none;
+}
+.modal-box h2{
+    height: 40px;
+    background: #F3F3F3;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+}
+.modal-box p{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 20px;
+    height: 80px;
+}
+.modal-box .btn{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.modal-box .btn button{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    height: 24px;
+    line-height: 26px;
+    padding: 0 14px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.modal-box .btn button:first-child{
+    cursor: pointer;
+    background-color: #f55;
+    text-align: center;
+    color: #fff;
+    height: 24px;
+    line-height: 26px;
+    padding: 0 14px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.org{
+    color: #f68a00;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+}
+.icon-gantanhao{
+    position: absolute;
+    top: 60px;
+    left:43px;;
+    font-size: 40px !important;
+    color: #f68a00;
+
+}
+.tz-img-fa{
+    width: 1200px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 1px;
+}
+.tz-img {
+    width: 1200px;
+    padding-left: 490px;
+    height: 174px;
+    background: url(../images/no-login.png) 177px 0 no-repeat;
+    margin-top: 50px;
+}
+.C-txt{
+    font-size: 24px;
+    font-weight: bold;
+    color: #8c8c8c;
+    padding-top: 35px;
+}
+.Cbtn-left1{
+    width: 138px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    background: #f42424;
+    border-color: #f42424;
+}
+.Cbtn-left2{
+    line-height: 40px;
+    margin-left: 25px;
+    color: #2e7ad6;
+    cursor: pointer;
+    font-size: 14px;
+}
+.C-info{
+    margin-top: 25px;
+}
+.Cbtn-left1:hover{
+    color: #ffffff !important;
+    opacity: 0.7;
+}
+.check-sp1{
+    position: relative;
+    right: 35px;
+}
+.check-sp2{
+    position: relative;
+    right: 20px;
+}
+.shop-name>strong{
+    color: #555;
+}
+.k1{
+    cursor: pointer;
+    color:#FCC217;
+}
+.k2{
+    cursor: pointer;
+    color:#7B75F3 ;
+}
+.k1:hover,.k2:hover{
+    color: red;
+}
+.fixed-bottom {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    bottom: -1px;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 -1px 8px #c4c4c4;
+}

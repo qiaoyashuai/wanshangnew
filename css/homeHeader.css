@@ -1,0 +1,706 @@
+/* 
+首页头部样式开始11行
+其他页面头部样式开始335行
+其他页面头部样式如果需要修改版心请使用'Ctrl+f'进行搜索,'版心1'和'版心2'
+如果需要修改搜索框和按钮的颜色请使用'Ctrl+f'进行搜索，'颜色1','颜色2','颜色3'
+*/
+
+
+/* 首页头部样式开始*/
+
+.gheader {
+    width: 1200px;
+    height: 125px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+/* logo图片 */
+
+.gheader .logoImg {
+    float: left;
+    width: 160px;
+    height: 60px;
+    padding: 32.5px 0;
+    box-shadow: 3px -5px 5px #ccc;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.gheader .logoImg img {
+    width: 160px;
+    height: 60px;
+}
+
+
+/* 头部右半部分 */
+
+.gheader_con {
+    float: right;
+    width: 1040px;
+    height: 125px;
+}
+
+
+/* 头部导航 */
+
+.gheader_con .site_nav {
+    width: 1040px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    background: #eee;
+}
+
+.gheader_con .site_nav .ml10 {
+    float: left;
+    margin-left: 10px;
+}
+
+.gheader_con .city_choice {
+    width: 183px;
+    height: 30px;
+    text-align: center;
+}
+
+.gheader_con .city_choice .dsc_choie {
+    float: left;
+}
+
+.gheader_con .city_choice .dsc_choie .icon-zuobiao {
+    font-size: 20px;
+    vertical-align: middle;
+    color: orangered;
+}
+
+
+/*地址功能开始*/
+
+.h_citylist {
+    width: 443px;
+    height: 236px;
+    position: absolute;
+    top: 30px;
+    left: 170px;
+    z-index: 5;
+    border: 1px solid #d2d2d2;
+    background-color: #FFFFFF;
+    display: none;
+}
+
+.h_cityctx {
+    padding: 20px 8px 10px 15px;
+    width: 420px;
+    height: 206px;
+}
+
+.h_hot {
+    height: 20px;
+}
+
+.h_hot a {
+    float: left;
+    line-height: 20px;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+.h_letter {
+    overflow: hidden;
+    margin: 10px 0 0 3px;
+}
+
+.h_letter a {
+    font-size: 14px;
+    color: #8c8c8c;
+    float: left;
+    line-height: 16px;
+    padding: 0 3px;
+    margin-right: 1px;
+    font-weight: 700;
+}
+
+.h_citybox {
+    width: 420px;
+    height: 150px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.h_alllist {
+    width: 400px;
+    height: 150px;
+    margin-left: 5px;
+    float: left;
+}
+
+.h_bar {
+    float: left;
+    height: 150px;
+    width: 7px;
+    position: relative;
+    margin-left: 5px;
+    background: url(../images/change_city.png) -7px 0 repeat-y;
+}
+
+.h_citybar {
+    position: absolute;
+    width: 7px;
+    height: 30px;
+    background: url(../images/change_city.png) 0 0 no-repeat;
+}
+
+.gheader_con .city_choice .dsc_choie .h_ul,
+.gyheader .eee .city_choice .dsc_choie .h_ul {
+    float: left;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    z-index: 9;
+}
+
+.gheader_con .city_choice .dsc_choie .h_ul li,
+.gyheader .eee .city_choice .dsc_choie .h_ul li {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.gheader_con .city_choice .dsc_choie .h_ul li em,
+.gyheader .eee .city_choice .dsc_choie .h_ul li em {
+    height: 18px;
+    width: 18px;
+    line-height: 16px;
+    border-radius: 50%;
+    background-color: #eee;
+    font-weight: 700;
+    margin: 2px 10px 0 0;
+    text-align: center;
+    float: left;
+    color: #8c8c8c;
+}
+
+.h_itemcity {
+    width: calc(100% - 28px);
+    float: left;
+}
+
+.h_itemcity a {
+    float: left;
+    line-height: 20px;
+    margin: 0 5px 5px 0;
+    padding: 0 5px;
+}
+
+.h_itemcity a:hover {
+    background-color: #eee;
+    color: #f42424;
+}
+
+.h_userinfo {
+    float: left;
+    margin-left: 15px;
+}
+
+.h_load {
+    padding-right: 12px;
+    float: left;
+    color: #f42828;
+    line-height: 30px;
+}
+
+.h_free {
+    color: #8c8c8c;
+    float: left;
+    line-height: 30px;
+}
+
+.h_free:hover {
+    color: #e23435;
+}
+
+.h_hover .h_city {
+    padding-bottom: 2px;
+    border-color: #ccc;
+    border-bottom: none;
+    background-color: #fff;
+    z-index: 9;
+}
+
+.h_hover .h_citylist {
+    display: block;
+}
+
+.h_hot a:hover {
+    background-color: #f42424;
+    color: #fff;
+}
+
+.h_letter a:hover {
+    color: #f42424;
+}
+
+
+/*地址功能结束*/
+
+.gheader_con .city_choice .txt_info {
+    float: left;
+}
+
+.gheader_con .city_choice .txt_info a:first-child {
+    padding-left: 10px;
+    color: orangered;
+}
+
+.gheader_con .city_choice .txt_info a:last-child:hover {
+    color: orangered;
+}
+
+.gheader_con .site_nav ul {
+    width: 330px;
+    height: 30px;
+    float: right;
+}
+
+.gheader_con .site_nav ul li {
+    float: left;
+    width: 62px;
+    height: 30px;
+    text-align: center;
+}
+
+.gheader_con .site_nav ul li a {
+    padding-right: 6px;
+    border-right: 1px solid #ddd;
+}
+
+.gheader_con .site_nav ul li a:hover {
+    color: orangered;
+}
+
+.gheader_con .site_nav ul .li_dorpdown {
+    width: 82px;
+    height: 30px;
+    position: relative;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .icon-down {
+    font-size: 12px;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .line1 {
+    width: 80px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 29px;
+    left: 1;
+    z-index: 10;
+    display: none;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: -230px;
+    display: none;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore1 {
+    width: 85px;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore1 a {
+    border-right: 0;
+    display: block;
+    width: 100%;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore1 a:hover {
+    color: tomato;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore2 {
+    width: 210px;
+    float: right;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore2 dt {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore2 a {
+    border-right: 0;
+    padding: 0;
+    width: 33%;
+    float: left;
+}
+
+.gheader_con .site_nav ul .li_dorpdown .dd .fore2 a:hover {
+    color: tomato;
+}
+
+
+/* 搜索部分 */
+
+.dsc_search {
+    width: 546px;
+    margin: 30px 0px 0px 108px;
+    position: relative;
+    float: left;
+}
+
+.dsc_search #searchForm input {
+    width: 378px;
+    height: 14px;
+    padding: 8px;
+    /* 颜色1 */
+    border: 2px solid#2984EB;
+    font-size: 12px;
+    float: left;
+}
+
+.dsc_search #searchForm .button_goods {
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    /* 颜色2 */
+    background-color: #2984EB;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+
+.dsc_search #searchForm .button_store {
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 7px;
+    /* 颜色3 */
+    background-color: #434D55;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+}
+
+.dsc_search .form .keyword li {
+    font-size: 12px;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+
+.dsc_search .form .keyword li a {
+    color: #999;
+}
+
+.dsc_search .form .keyword li:hover a {
+    color: red;
+}
+
+
+/* 我的购物车 */
+
+.shopCart {
+    width: 180px;
+    height: 35px;
+    margin: 20px 20px 0 0;
+    float: right;
+    position: relative;
+}
+
+.shopCart .shopCart_con {
+    width: 178px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #d2d2d2;
+}
+
+.shopCart .shopCart_con a {
+    display: block;
+    color: #f42424;
+    position: relative;
+}
+
+.shopCart .shopCart_con a .icon-gouwuche {
+    padding-left: 30px;
+    font-size: 20px;
+    float: left;
+}
+
+.shopCart .shopCart_con a span:nth-child(2) {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.shopCart .shopCart_con a span:nth-child(3) {
+    width: 13px;
+    height: 13px;
+    line-height: 13px;
+    padding: 1px;
+    border-radius: 50%;
+    background: #f42424;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.shopCart .line2 {
+    width: 178px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 34px;
+    left: 1;
+    z-index: 10;
+    display: none;
+}
+
+.shopCart .dorpdown_layer {
+    display: none;
+    position: absolute;
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    right: 0;
+    top: 35px;
+    width: 312px;
+    height: 110px;
+    z-index: 4;
+}
+
+.shopCart .dorpdown_layer .prompt {
+    padding: 20px 20px 20px 36px;
+}
+
+.shopCart .dorpdown_layer .nogoods i {
+    background: url(../images/cart-nogoods.png) no-repeat;
+    display: block;
+    width: 110px;
+    height: 68px;
+    float: left;
+}
+
+.shopCart .dorpdown_layer .nogoods span {
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #8c8c8c;
+    margin: 6px 0 0 14px;
+    line-height: 25px;
+    width: 132px;
+}
+
+
+/* 首页头部样式结束*/
+
+
+/* 其他页面头部样式开始 */
+
+.gyheader {
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+
+/* 头部导航 */
+
+.gyheader .eee {
+    width: 100%;
+    background: #eee;
+}
+
+.gyheader .site_nav {
+    /* 版心1 */
+    width: 1200px;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0px auto;
+}
+
+.gyheader .site_nav .ml10 {
+    float: left;
+    margin-left: 10px;
+}
+
+.gyheader .city_choice {
+    width: 183px;
+    height: 30px;
+    text-align: center;
+}
+
+.gyheader .city_choice .dsc_choie {
+    width: 72px;
+    height: 30px;
+    margin-left: -7px;
+    float: left;
+    color: #8c8c8c;
+}
+
+.gyheader .city_choice .dsc_choie .icon-zuobiao {
+    font-size: 20px;
+    vertical-align: middle;
+    color: orangered;
+}
+
+.gyheader .city_choice .txt_info {
+    float: left;
+}
+
+.gyheader .city_choice .txt_info a {
+    color: #8c8c8c;
+}
+
+.gyheader .city_choice .txt_info a:first-child {
+    padding: 10px 12px 0 10px;
+    margin-left: 5px;
+    color: orangered;
+}
+
+.gyheader .city_choice .txt_info a:last-child:hover {
+    color: orangered;
+}
+
+.gyheader .site_nav ul {
+    width: 374px;
+    height: 30px;
+    float: right;
+}
+
+.gyheader .site_nav ul li {
+    float: left;
+    width: 62px;
+    height: 30px;
+    text-align: center;
+    margin-left: 7px;
+}
+
+.gyheader .site_nav ul li a {
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+    color: #8c8c8c;
+}
+
+.gyheader .site_nav ul li a:hover {
+    color: orangered;
+}
+
+.gyheader .site_nav ul .li_dorpdown {
+    width: 82px;
+    height: 30px;
+    position: relative;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+
+.gyheader .site_nav ul .li_dorpdown .icon-down {
+    font-size: 12px;
+}
+
+.gyheader .site_nav ul .li_dorpdown .line1 {
+    width: 80px;
+    border-bottom: 2px solid #fff;
+    position: absolute;
+    top: 29px;
+    left: 1;
+    z-index: 10;
+    display: none;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd {
+    width: 380px;
+    padding: 18px 0px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    top: 30px;
+    left: -300px;
+    display: none;
+    z-index: 5;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore1 {
+    float: left;
+    padding: 0 0 0 30px;
+    border-right: 1px solid #efefef;
+    width: 85px;
+    text-align: left;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore1 dt {
+    font-weight: 700;
+    color: #666;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore1 a {
+    border-right: 0;
+    display: block;
+    width: 100%;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore1 a:hover {
+    color: tomato;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore2 {
+    width: 225px;
+    padding: 0 0 0 30px;
+    text-align: left;
+    float: right;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore2 dt {
+    font-weight: 700;
+    color: #666;
+    text-align: left;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore2 a {
+    border-right: 0;
+    padding: 0;
+    width: 33%;
+    float: left;
+}
+
+.gyheader .site_nav ul .li_dorpdown .dd .fore2 a:hover {
+    color: tomato;
+}
+
+.gylheader {
+    /* 版心2*/
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/* logo图片 */
+
+.gylheader .logoImg {
+    float: left;
+    width: 160px;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.gylheader .logoImg img {
+    width: 160px;
+    height: 60px;
+}

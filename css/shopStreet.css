@@ -1,0 +1,662 @@
+body,
+html,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+button,
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+em,
+i,
+u {
+    font-style: normal;
+}
+
+a:hover {
+    color: #f42424;
+}
+
+
+/* 字体大小 */
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+
+/* 显示和隐藏 */
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block!important;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+.fn {
+    float: none;
+}
+
+
+/* 对齐方式*/
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+
+/* 二级导航栏 */
+
+.bc-nav {
+    width: 100%;
+    height: 40px;
+    border-bottom: 2px solid #f42424;
+}
+
+.nav-content {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.nav-sorts {
+    width: 232px;
+    height: 42px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #f42424;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-content .sorts-content {
+    width: 232px;
+    height: 500px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 11;
+    top: 42px;
+    line-height: 0;
+    text-align: left;
+}
+
+
+/* 商品分类 */
+
+.sorts-content li {
+    width: 100%;
+    padding: 14.5px 16px;
+    float: left;
+    box-sizing: border-box;
+    height: 71px;
+    cursor: pointer;
+    line-height: 28px;
+}
+
+.sorts-content li.active {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.sorts-content li .iconfont {
+    color: #bfbfbf;
+    margin-right: 10px;
+    float: left;
+    height: 42px;
+    /* margin-top: 3px; */
+}
+
+.sorts-content li>div {
+    height: 42px;
+}
+
+.sorts-content li>div>a {
+    height: 14px;
+    display: block;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.sorts-content li>div>a:hover {
+    color: #e23435;
+}
+
+.sorts-content li>div>p a {
+    color: #bfbfbf;
+    margin-right: 10px;
+}
+
+.sorts-content li>div>p a:hover {
+    color: #e23435;
+}
+
+
+/* 分类专区部分 */
+
+.nav-section {
+    line-height: 40px;
+}
+
+.nav-section>li {
+    padding-left: 40px;
+    float: left;
+}
+
+.nav-section>li>a {
+    color: #555;
+}
+
+.nav-section>li>a.active {
+    color: #f42424;
+}
+
+.nav-section>li>a:hover {
+    color: #f42424;
+}
+
+
+/* 商品分类的tab切换 */
+
+.sorts-content .sorts-tab {
+    width: 968px;
+    height: 637px;
+    position: absolute;
+    background-color: #fff;
+    z-index: 11;
+    left: 232px;
+    top: 0;
+    cursor: pointer;
+}
+
+.sorts-content .sorts-tab>div {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px 20px 28px 18px;
+}
+
+
+/* .sorts-content .sorts-tab>div{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+} */
+
+
+/* tab中的左边部分 */
+
+.sorts-content .sorts-tab>div .layer-left {
+    width: 704px;
+    height: 100%;
+}
+
+
+/* 头部品牌 */
+
+.layer-left .head {
+    width: 100%;
+    height: 24px;
+    overflow: hidden;
+}
+
+.layer-left .head a {
+    float: left;
+    margin-right: 10px;
+    padding: 0 10px 0 12px;
+    height: 24px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #5f4f4f;
+}
+
+
+/* 分类 */
+
+.layer-left .sort {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+/* 分类 左边*/
+
+.layer-left .sort>div {
+    width: 100%;
+    height: 45px;
+}
+
+
+/* 内容中的左侧部分 */
+
+.layer-left .sort .sort-left {
+    width: 70px;
+    font-weight: 700px;
+    height: 45px;
+    padding: 13.5px 10px 13.5px 0;
+    box-sizing: border-box;
+}
+
+.layer-left .sort .sort-left a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    color: #555;
+}
+
+
+/* 内容中的右侧部分 */
+
+.layer-left .sort .sort-right {
+    width: 624px;
+    height: 45px;
+    padding: 13.5px 0;
+    font-weight: normal;
+    box-sizing: border-box;
+}
+
+.layer-left .sort .sort-right a {
+    float: left;
+    padding: 0 10px;
+    height: 18px;
+    color: #555;
+    border-left: 1px solid #e0e0e0;
+}
+
+.layer-left .sort .sort-left a:hover,
+.layer-left .sort .sort-right a:hover {
+    color: #f42424;
+}
+
+
+/* 分类 右边 */
+
+.layer-right {
+    width: 200px;
+    height: auto;
+}
+
+.layer-right .img-sm {
+    width: 100%;
+    height: auto;
+}
+
+.layer-right .img-sm>a {
+    float: left;
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.layer-right .img-sm>a:nth-child(2n) {
+    border-left: none;
+}
+
+.layer-right .img-sm>a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 下边的大图片 */
+
+.layer-right .img-lg {
+    width: 100%;
+    height: 100px;
+}
+
+.layer-right .img-lg a {
+    width: 100%;
+    height: 100%;
+}
+
+.layer-right .img-lg a img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 主要内容 */
+
+.content {
+    position: relative;
+}
+
+.content .street_banner {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.content .street_banner .street_banner_wp {
+    width: 100%;
+    text-align: center;
+}
+
+.content .street_banner .street_banner_wp a div {
+    background: url(../images/street_banner.jpg) center center no-repeat;
+    width: 100%;
+    height: 200px;
+}
+
+.content .street_main {
+    padding: 20px 0 0;
+    font-size: 12px;
+}
+
+.content .street_main .gylw1200 {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.content .gylw1200 .selector {
+    background-color: #fff;
+    margin-bottom: 15px;
+}
+
+.content .gylw1200 .selector .s_line {
+    border-style: dashed;
+    border: 1px dotted #d2d2d2;
+    margin-top: -1px;
+}
+
+.content .gylw1200 .selector .s_line .s_l_wrap {
+    position: relative;
+    line-height: 28px;
+    padding: 10px 0;
+}
+
+.content .gylw1200 .selector .s_l_tit {
+    float: left;
+    padding-left: 30px;
+    width: 80px;
+    color: #8c8c8c;
+}
+
+.content .gylw1200 .selector .s_l_value {
+    margin-left: 110px;
+    padding-right: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    zoom: 1;
+}
+
+.content .gylw1200 .selector .s_l_value .s_l_v_list li {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.content .gylw1200 .selector .s_l_value .s_l_v_list li.curr a {
+    color: #f42424;
+}
+
+.mod_list_sort {
+    height: 30px;
+    line-height: 30px;
+    color: #8c8c8c;
+}
+
+.mod_list_sort .sort_l .sort_item {
+    float: left;
+    line-height: 28px;
+    height: 28px;
+    border: 1px solid #d2d2d2;
+    text-align: center;
+    width: 78px;
+    background: #fff;
+    color: #8c8c8c;
+    margin-right: 10px;
+}
+
+.mod_list_sort .sort_l .sort_item:hover {
+    border: 1px solid #f42424;
+    color: #f42424;
+}
+
+.mod_list_sort .sort_l .sort_item .iconfont {
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 4px;
+    vertical-align: middle;
+    margin-right: -7px;
+    transform: rotateZ(45deg);
+}
+
+.street_list {
+    width: 1200px;
+    height: 1989.45px;
+    position: relative;
+}
+
+.street_list .street_list_item {
+    width: 278px;
+    height: auto;
+    border: 3px solid #e5e5e5;
+    background: #f8f8f8;
+    margin-bottom: 13px;
+    transition: all .2s;
+}
+
+.street_list .street_list_item:hover {
+    border-color: #aaaaaa;
+}
+
+.street_list .street_list_item:nth-child(1) {
+    position: absolute;
+    left: 0%;
+    top: 0px;
+}
+
+.street_list .street_list_item:nth-child(2) {
+    position: absolute;
+    left: 25.1443%;
+    top: 0px;
+}
+
+.street_list .street_list_item:nth-child(3) {
+    position: absolute;
+    left: 50.371%;
+    top: 0px;
+}
+
+.street_list .street_list_item:nth-child(4) {
+    position: absolute;
+    left: 75.5977%;
+    top: 0px;
+}
+
+.street_list .street_list_item:nth-child(5) {
+    position: absolute;
+    left: 0%;
+    top: 406px;
+}
+
+.street_list .street_list_item:nth-child(6) {
+    position: absolute;
+    left: 50.371%;
+    top: 451px;
+}
+
+.street_list .street_list_item:nth-child(7) {
+    position: absolute;
+    left: 75.5977%;
+    top: 453px;
+}
+
+.street_list .street_list_item:nth-child(8) {
+    position: absolute;
+    left: 25.1443%;
+    top: 464px;
+}
+
+.street_list .street_list_item:nth-child(9) {
+    position: absolute;
+    left: 50.371%;
+    top: 920px;
+}
+
+.street_list .street_list_item:nth-child(10) {
+    position: absolute;
+    left: 0%;
+    top: 957px;
+}
+
+.street_list .street_list_item:nth-child(11) {
+    position: absolute;
+    left: 75.5977%;
+    top: 972px;
+}
+
+.street_list .street_list_item:nth-child(12) {
+    position: absolute;
+    left: 25.1443%;
+    top: 1045px;
+}
+
+.street_list .street_list_item:nth-child(13) {
+    position: absolute;
+    left: 75.5977%;
+    top: 1400px;
+}
+
+.street_list .street_list_item:nth-child(14) {
+    position: absolute;
+    left: 0%;
+    top: 1480px;
+}
+
+.street_list .street_list_item .cover img {
+    width: 278px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.street_list .info {
+    padding: 20px 20px 25px;
+    text-align: center;
+}
+
+.street_list .info .seller_sr {
+    border: 1px solid #f42424;
+    width: 50px;
+    color: #f42424;
+    padding: 0 5px;
+    margin: 0 auto;
+}
+
+.street_list .info .s_follow {
+    margin-top: 9px;
+    font-size: 0;
+}
+
+.street_list .info .s_follow .icon-hongxin_weidianji {
+    vertical-align: middle;
+    margin: -2px 0 0 5px;
+    font-size: 21px;
+    color: #f43434;
+    position: absolute;
+    right: 8px;
+    top: 5px;
+    z-index: 2;
+}
+
+.street_list .info .s_logo {
+    width: 118px;
+    height: 58px;
+    margin: 0 auto;
+    border: 1px dashed #dcdcdc;
+    background-color: #fff;
+}
+
+.street_list .info .s_logo a {
+    display: table-cell;
+    width: 118px;
+    height: 58px;
+    vertical-align: middle;
+}
+
+.street_list .info .s_logo a img {
+    width: 118px;
+    max-height: 58px;
+    vertical-align: middle;
+}
+
+.street_list .info .s_name {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+    display: block;
+    margin: 10px 0;
+}
+
+.street_list .info p {
+    color: #8c8c8c;
+    text-align: left;
+    padding-left: 60px;
+    margin: 2px 0;
+}
+
+.street_list .info p img {
+    vertical-align: middle;
+    width: 20px;
+}

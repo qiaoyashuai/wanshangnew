@@ -1,0 +1,179 @@
+.sign{
+    width: 100%;
+    height: 530px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.sign_bg{
+    width: 100%;
+    height: 100%;
+    background: url(../images/sign_bg.jpg) no-repeat;
+    background-size: cover;
+}
+/* 登录框 */
+.sign_box{
+    width: 350px;
+    height: 420px;
+    position: absolute;
+    right: 360px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+}
+
+.sign_num,.sign_code{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/* 第三方 */
+.sign_num .other{
+    width: 270px;
+    height: 76px;
+    padding: 20px 40px 0;
+}
+
+.sign_num .other h4{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    font-weight: normal;
+    text-align: center;
+    /* display: inline-block; */
+    /* position: relative;
+    z-index: 2; */
+}
+/* qq图标盒子 */
+.sign_num .other a{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 19px auto 0;
+    border-radius: 50%;
+}
+
+.sign_num .other .color_blue{
+    color: skyblue;
+    font-size: 36px;
+}
+
+.sign_num .other a:hover{
+    background-color: skyblue;   
+}
+.sign_num .other a:hover .iconfont{
+    color: #fff;
+}
+
+/* 账号 */
+
+.sign_num .number{
+    width: 270px;
+    height: 275px;
+    padding: 20px 40px 30px;
+}
+.sign_num .number h4{
+    font-size: 16px;
+    color: #8c8c8c;
+    padding: 0 15px;
+    font-weight: normal;
+    text-align: center;
+}
+/* 登录表单 */
+.sign_num .number form{
+    margin-top: 30px;
+}   
+.sign_num .number label{
+    position: relative;
+    
+}   
+.sign_num .number label i{
+    position: absolute;
+    left: 3px;
+    top: 2px;
+    color: #e8e8e8;
+    font-size: 22px;
+}   
+.sign_num .number label input{
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    padding: 10px 10px 10px 30px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}  
+.sign_num .number label input:focus{
+    outline: 1px solid #333;
+}  
+.sign_num .number label .infor{
+    padding-right: 60px;
+}  
+.sign_num .number label .checked{
+    width: 60px;
+    height: 34px;
+    position: absolute;
+    left: 209px;
+    top: -5px;
+    text-align: center;
+    line-height: 34px;
+    color: green;
+    background-color: #F3FBFE;
+}  
+.sign_num .number button{
+    width: 100%;
+    height: 40px;
+    background-color: #f42424;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+}
+.sign_num .number button .mask{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    position: absolute;
+    background-color: rgba(255,255,255,.3);
+    top: 0;
+    left: 0;
+    display: none;
+
+}
+
+.sign_num .number button:hover .mask{
+    display: block;
+}
+.sign_num .number .forget{
+    margin-top: 8px;
+}
+
+.sign_num .toCode{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.sign_num .toCode .iconfont{
+    font-size: 50px;
+    color: #f42424;
+}
+.sign_num .toCode .cover{
+    position: absolute;
+    left: -5px;
+    top: 0px;
+    border: 30px solid transparent;
+    border-top: 30px solid #fff;
+    border-left: 30px solid #fff;
+    
+    transform: rotate(-90deg);
+}
+.sign_code .codeLogin{
+    width: 190px;
+    height: 190px;
+    margin: 30px auto 15px;
+}
+.sign_code .number a{
+    color: #f42424;
+}
+
